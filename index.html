@@ -23,16 +23,21 @@
     <div class="form-container">
     <form id="akanForm">
       <div class="form-group">
-        <label for="birthdate">Select your Birthdate:</label>
+        <label for="birthdate"><b>Select your Birthdate:</b></label>
         <input type="date" id="birthdate" required />
       </div>
 
       <div class="form-group">
-        <label>Select your Gender:</label>
+        <label><b>Select your Gender:</b></label>
         <div class="radio-group">
           <label><input type="radio" name="gender" value="male" required /> Male</label>
           <label><input type="radio" name="gender" value="female" required /> Female</label>
         </div>
       </div>
+    </div>
+      <button type="submit">Get Akan Name</button>
+    </form>
+    <div id="result" class="result-box"></div>
+    <script src="./script.js"></script> 
 </body>
 </html>
